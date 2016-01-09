@@ -52,6 +52,7 @@ public class QSConstants {
     public static final String TILE_SYNC = "sync";
     public static final String TILE_BATTERY_SAVER = "battery_saver";
     public static final String TILE_CAFFEINE = "caffeine";
+	public static final String TILE_PIE = "pie";
     public static final String TILE_EDIT = "edit";
     public static final String TILE_DND = "dnd";
 
@@ -100,6 +101,7 @@ public class QSConstants {
         STATIC_TILES_AVAILABLE.add(TILE_SYNC);
         STATIC_TILES_AVAILABLE.add(TILE_BATTERY_SAVER);
         STATIC_TILES_AVAILABLE.add(TILE_CAFFEINE);
+	STATIC_TILES_AVAILABLE.add(TILE_PIE);
 
         TILES_AVAILABLE.addAll(STATIC_TILES_AVAILABLE);
 
