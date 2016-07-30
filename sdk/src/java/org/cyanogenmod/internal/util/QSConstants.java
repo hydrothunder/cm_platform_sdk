@@ -55,6 +55,13 @@ public class QSConstants {
 	public static final String TILE_PIE = "pie";
     public static final String TILE_EDIT = "edit";
     public static final String TILE_DND = "dnd";
+    public static final String TILE_RESTARTUI = "restartui";
+    public static final String TILE_MUSIC = "music";
+    public static final String TILE_REBOOT = "reboot";
+    public static final String TILE_POWER = "power_menu";
+    public static final String TILE_SOUND = "sound";
+	public static final String TILE_APP_KILL = "kill_app";
+	public static final String TILE_GESTUREANYWHERE = "gesture_anywhere";
 
     public static final String DYNAMIC_TILE_NEXT_ALARM = "next_alarm";
     public static final String DYNAMIC_TILE_IME_SELECTOR = "ime_selector";
@@ -101,7 +108,14 @@ public class QSConstants {
         STATIC_TILES_AVAILABLE.add(TILE_SYNC);
         STATIC_TILES_AVAILABLE.add(TILE_BATTERY_SAVER);
         STATIC_TILES_AVAILABLE.add(TILE_CAFFEINE);
-	STATIC_TILES_AVAILABLE.add(TILE_PIE);
+		STATIC_TILES_AVAILABLE.add(TILE_PIE);
+        STATIC_TILES_AVAILABLE.add(TILE_RESTARTUI);
+        STATIC_TILES_AVAILABLE.add(TILE_MUSIC);
+        STATIC_TILES_AVAILABLE.add(TILE_REBOOT);
+		STATIC_TILES_AVAILABLE.add(TILE_APP_KILL);
+		STATIC_TILES_AVAILABLE.add(TILE_POWER);
+		STATIC_TILES_AVAILABLE.add(TILE_SOUND);
+		STATIC_TILES_AVAILABLE.add(TILE_GESTUREANYWHERE);
 
         TILES_AVAILABLE.addAll(STATIC_TILES_AVAILABLE);
 
